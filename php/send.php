@@ -24,8 +24,8 @@ if(isset($_POST['SEND']))
         'url' => 'http://127.0.0.1/osTicket/upload/api/http.php/tickets.json',  //URL to site.tld/api/tickets.json
         'key' => '00A35F8027B09C288DA8F40A8BA94C2F'  //API key osTicket
     );
-	
-	$message = 'Desk: ' . $_POST['desk'] . "\r\n\r\n" . $_POST['message']; //Concatenate select and input text from form
+
+    $message = 'Desk: ' . $_POST['desk'] . "\r\n\r\n" . $_POST['message']; //Concatenate select and input text from form
 	
     $data = array(
         'alert' => 'false', //Alert to staff
@@ -98,14 +98,14 @@ if(isset($_POST['SEND']))
         die();
     }
 
-	#pre-checks
+    #pre-checks
     function_exists('curl_version') or die('CURL support required');
     function_exists('json_encode') or die('JSON support required');
 	
-	#set timeout
+    #set timeout
     set_time_limit(30);
 	
-	#curl post
+    #curl post
     $ch = curl_init();
     curl_setopt($ch, CURLOPT_URL, $config['url']);
     curl_setopt($ch, CURLOPT_POST, 1);
