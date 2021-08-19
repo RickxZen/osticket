@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<link rel="stylesheet" href="css/formulier.css">
+		<link rel="stylesheet" href="css/form.css">
 		<title>
 			Report Form
 		</title>
