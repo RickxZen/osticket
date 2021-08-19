@@ -1,0 +1,52 @@
+body {
+	font-family: arial;
+}
+
+.firstcolumn {
+	font-weight: bold;
+	vertical-align: top;
+	text-align: left;
+}
+
+.secondcolumn {
+	width: 500px;
+}
+
+.fullwidth {
+	width: 100%;
+}
+
+.messageheight {
+	height: 300px;
+}
+
+input, textarea {
+	box-sizing: border-box;
+}
+
+.styled-table {
+	border: thin solid black;
+    border-collapse: collapse;
+    font-size: 0.9em;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+	margin-left: auto;
+	margin-right: auto
+}
+
+.styled-table thead tr {
+    background-color: #009fe3;
+    color: #ffffff;
+    text-align: center;
+	font-size: 30px;
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+	border: thin solid black;
+	border-collapse: collapse;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
