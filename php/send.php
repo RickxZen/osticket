@@ -36,7 +36,7 @@ if(isset($_POST['SEND']))
         'phone' => $_POST['phone'], //Phone number
         'subject' => $_POST['subject'], //Ticket title
         'ip' => $_SERVER['REMOTE_ADDR'], //IP adress of machine sending ticket 
-		'message' => $message, //Plain text
+	'message' => $message, //Plain text
         'attachments' => array(),
     );
 	
