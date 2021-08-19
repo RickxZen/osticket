@@ -8,6 +8,8 @@ Using their HTTP API custom web forms can be created.
 
 Link to the API docs: https://docs.osticket.com/en/latest/Developer%20Documentation/API%20Docs.html
 
+Change URL and API key in send.php according to your own installation.
+
 Preview of this web form:
 
 ![afbeelding](https://user-images.githubusercontent.com/48241736/130028325-0f6fe227-40b9-4195-8cf7-321d43c336b2.png)
